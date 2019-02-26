@@ -1,3 +1,11 @@
-export default () => {
-    return <div>hello world</div>;
+import React, { Component } from 'react'
+
+export default class componentName extends Component {
+    render() {
+        return (
+            <div>
+                hello,world
+            </div>
+        )
+    }
 }
