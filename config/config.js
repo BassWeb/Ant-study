@@ -6,10 +6,6 @@ export default {
         }]
     ],
     routes: [
-        // {
-        //     path: '/Helloworld',
-        //     component: './helloworld/Helloworld'
-        // },
         {
             path: '/',
             component: '../layout',
