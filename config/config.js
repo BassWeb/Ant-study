@@ -11,8 +11,16 @@ export default {
             component: '../layout',
             routes: [
                 {
-                    path: 'Helloworld',
+                    path: '/',
                     component: './helloworld/Helloworld'
+                },
+                {
+                    path: '/helloworld',
+                    component: './helloworld/Helloworld'
+                },
+                {
+                    path: '/card',
+                    component: './puzzlecards/Puzzlecards'
                 }
             ]
         }
